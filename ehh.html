@@ -21,7 +21,7 @@
   </div>
   <script>
     var currentPhoto = 0;
-    var photos = ["1.jpg", "2.png", "3.jpg", "4.jpg", "5.jpg", "6.png", "7.jpg", "8.png", "9.png", "10.jpg",];
+    var photos = ["0.png", "1.jpg", "2.png", "3.jpg", "4.jpg", "5.jpg", "6.png", "7.jpg", "8.png", "9.png", "10.jpg",];
     function nextPhoto() {
         currentPhoto = (currentPhoto + 1) % photos.length;
         document.getElementById("current-photo").src = photos[currentPhoto];
